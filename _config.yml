@@ -2,15 +2,16 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://lagden.dev/
-title: Blog do Lagden
-subtitle: Blogging some code.
+url: http://blog.dev/
+title: Lagden
+subtitle: Making some code
 author: Thiago Lagden
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email: 4nothing@gmail.com
+subscribe_email: lagden@gmail.com
+
 # RSS feeds can list your email address if you like
 email: lagden@gmail.com
 
@@ -38,7 +39,7 @@ excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of 
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 
 # default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html]
-default_asides: [asides/recent_posts.html, asides/twitter.html]
+default_asides: [asides/recent_posts.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -51,22 +52,22 @@ default_asides: [asides/recent_posts.html, asides/twitter.html]
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
-github_show_profile_link: true
-github_skip_forks: true
+# github_user:
+# github_repo_count: 0
+# github_show_profile_link: true
+# github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_count: 4
-twitter_show_replies: false
-twitter_follow_button: true
-twitter_show_follower_count: false
-twitter_tweet_button: true
+# twitter_user:
+# twitter_tweet_count: 4
+# twitter_show_replies: false
+# twitter_follow_button: true
+# twitter_show_follower_count: false
+# twitter_tweet_button: true
 
 # Google Plus
-google_plus_one: true
-google_plus_one_size: medium
+# google_plus_one: true
+# google_plus_one_size: medium
 
 # Pinboard
 # pinboard_user:
