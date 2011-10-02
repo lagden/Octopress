@@ -1,0 +1,18 @@
+<div class="highlight"><pre><span class="k">var</span> <span class="nx">pic_mcl</span><span class="o">:</span><span class="nb">MovieClipLoader</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">MovieClipLoader</span><span class="p">();</span>
+<span class="k">var</span> <span class="nx">pic_mc</span><span class="o">:</span><span class="nb">MovieClip</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">createEmptyMovieClip</span><span class="p">(</span><span class="s2">&quot;pic_mc&quot;</span><span class="o">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">getNextHighestDepth</span><span class="p">());</span>
+<span class="k">var</span> <span class="nx">listenerObject</span><span class="o">:</span><span class="nb">Object</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Object</span><span class="p">();</span>
+  
+<span class="nx">pic_mcl</span><span class="p">.</span><span class="nx">loadClip</span><span class="p">(</span><span class="s2">&quot;http://www.helpexamples.com/flash/images/image1.jpg&quot;</span><span class="o">,</span><span class="nx">pic_mc</span><span class="p">);</span>
+
+<span class="nx">pic_mcl</span><span class="p">.</span><span class="nx">addListener</span><span class="p">(</span><span class="nx">listenerObject</span><span class="p">);</span>
+<span class="nx">listenerObject</span><span class="p">.</span><span class="nx">onLoadInit</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">target_mc</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="nx">target_mc</span><span class="p">.</span><span class="nx">onRelease</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span>
+  <span class="p">{</span>
+    <span class="nf">trace</span><span class="p">(</span><span class="s2">&quot;Unloading and removing clip...&quot;</span><span class="p">);</span>
+    <span class="nx">pic_mcl</span><span class="p">.</span><span class="nx">unloadClip</span><span class="p">(</span><span class="nx">target_mc</span><span class="p">);</span>
+    <span class="nx">target_mc</span><span class="p">.</span><span class="nx">removeMovieClip</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+</pre>
+</div>
