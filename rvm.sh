@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-rvm rvmrc trust
-rvm reload
-gem install bundler
-gem install rake
+rvmsudo rvm rvmrc trust
+rvmsudo rvm reload
+rvmsudo gem install bundler
+rvmsudo gem install rake
 bundle install
