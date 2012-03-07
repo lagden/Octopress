@@ -19,27 +19,23 @@ Você tem um par de chaves existente? Você pode pular para a **Etapa 4**.
 
 Verifique se há chaves SSH no seu computador:
 
-    $ cd ~/.ssh
+    cd ~/.ssh
 
-Se aparecer "Nenhum arquivo ou diretório" pule para o **Etapa 3**. Caso contrário, continue com a próxima etapa.
+Se aparecer `Nenhum arquivo ou diretório` ou `No such file or directory` pule para o **Etapa 3**. Caso contrário, continue com a próxima etapa.
 
 ### Etapa 2. Faça o backup e remova a chave SSH existente.
 
-    $ ls
-    config	id_rsa	id_rsa.pub	known_hosts
-    $ mkdir key_backup
-    $ cp id_rsa* key_backup
-    $ rm id_rsa*
+    ls
+    config  id_rsa  id_rsa.pub  known_hosts
+    mkdir key_backup
+    cp id_rsa* key_backup
+    rm id_rsa*
 
 ### Etapa 3. Gerando uma nova chave SSH.
 
 Para gerar uma chave SSH nova, insira o código abaixo e apenas pressione **enter**.
 
-    $ ssh-keygen -t rsa -C "email@exemplo.com"
-    Generating public/private rsa key pair.
-    Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):<press enter>
-    Enter passphrase (empty for no passphrase):<enter a passphrase>
-    Enter same passphrase again:<enter passphrase again>
+    ssh-keygen -t rsa -C "email@exemplo.com"
 
 No final deverá aparecer algo assim:
 
@@ -62,17 +58,20 @@ No final deverá aparecer algo assim:
 
 ### Etapa 4. Adicione sua chave SSH no servidor Git.
 
-    $ cat ~/.ssh/id_rsa.pub
+    cat ~/.ssh/id_rsa.pub
     ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvP9QeNCEHrCdRKSlYmfY2NdBnvsK7M0lD8GQ4SLk+zc3hMAOayNw9aBsqdkEkIqjJRGKDm3NSxSlT1Q9mMCd21+b76OGswcaHBxrzxWDuyJSsKFVPKrDVUpIfYDJWqB6pdqg15HVH4LWGWvVmRRZSLVTYI6QBT8yGd4U2YxY+aF8azi8zIR0+hWQKNjDO3xyXRlLuc3Z6HBu4KOX6d8wqpO6DWuunpONj8/2ayJRbMBt2p72oBmDG3WsKQK6Nox0OSxoPK1ndXjWObFcMWx84q7w3CHTD8OrkYvdSqTo5V+DJwEAheCJqYWPXZV/MXnhYb1gKy0qPVj5uCyfqHXRHQ== email@exemplo.com
 
 Acesse seu servidor Git e edite o arquivo authorized_keys.
 
-    $ ssh user@server.com
+    ssh user@server.com
     user@server.com's password: 
     Last login: Fri Sep 30 19:07:03 2011 from 177.32.53.79
-    user@server.com [~]# vim .ssh/authorized_keys
+    user@server.com [~]# vim ~/.ssh/authorized_keys
 
 Adicione sua chave e salve o arquivo.
+
+    user@server.com [~]# touch ~/.ssh/authorized_keys
+    user@server.com [~]# chmod 644 ~/.ssh/authorized_keys
 
 ---
 

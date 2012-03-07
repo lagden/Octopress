@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://lagden.github.com
-title: X-Source
-subtitle: Making some code
+title: Usefull Stuff
+subtitle: Helping myself not forget
 author: Thiago Lagden
 simple_search: http://google.com/search
 
@@ -60,10 +60,10 @@ default_asides: [asides/recent_posts.html, asides/googleplus.html, asides/twitte
 # ----------------------- #
 
 # Github repositories
-# github_user:
-# github_repo_count: 0
-# github_show_profile_link: true
-# github_skip_forks: true
+github_user: 
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
 
 # Twitter
 twitter_user: thiagolagden
@@ -83,19 +83,19 @@ googleplus_user: 117052370664889070330
 googleplus_hidden: false
 
 # Pinboard
-# pinboard_user:
-# pinboard_count: 3
+pinboard_user:
+pinboard_count: 3
 
 # Delicious
-# delicious_user:
-# delicious_count: 3
+delicious_user:
+delicious_count: 3
 
 # Disqus Comments
-# disqus_short_name:
-# disqus_show_comment_count: false
+disqus_short_name:
+disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: 'UA-26077512-1'
    
 # Facebook Like
-facebook_like: true
+facebook_like: false
