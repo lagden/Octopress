@@ -72,15 +72,13 @@ Completo
     Período: 2º Semestre de 2001
     Área de atuação: Pesquisa sobre novas interfaces.
 
-
 ## CONHECIMENTOS TÉCNICOS
-    OOP
     PHP, ActionScript 2 e 3, Node.js
-    JavaScript (Framaworks Jquery e Mootools)
+    JavaScript, jQuery e Mootools
     Flash, Flex
-    HTML5, CSS, Tableless
+    HTML5, CSS, SASS
     MySQL, MsSql, MongoDB
-    Subversion, Git
+    Git
 
 ## SOCIAL
 <https://github.com/lagden>  
@@ -90,17 +88,23 @@ Completo
 
 ## HISTÓRICO PROFISSIONAL
 
+    Empresa: Tribo Interactive
+    Local: São Paulo
+    Período: Fevereiro 2012 - Trabalhando atualmente
+    Área de atuação: Programação
+    Cargo: Programador (Frontend e Backend)
+    
     Empresa: Seepix Digital
     Local: São Paulo
-    Período: Janeiro 2011 - Trabalhando atualmente
+    Período: Janeiro 2011 - Fevereiro 2012
     Área de atuação: Programação
-    Cargo: Programador
+    Cargo: Programador (Frontend e Backend)
     
     Empresa: The Aubergine Panda
     Local: São Paulo
     Período: Março 2010 - Janeiro 2011
     Área de atuação: Programação
-    Cargo: Programador
+    Cargo: Programador (Frontend e Backend)
     
     Empresa: Secretaria Municipal do Trabalho
     Local: São Paulo
@@ -140,14 +144,30 @@ Completo
 
 ## ALGUNS TRABALHOS
 
+Herbalife (2012)
+URL: <http://www.comoherbalifefunciona.com.br/>
+URL: <http://www.tudosobreaherbalife.com.br/>
+URL: <http://www.verdadesobreaherbalife.com.br/>
+URL: <http://www.negociosherbalife.com.br/>
+URL: <http://www.precooficialherbalife.com.br/>
+
+Promoção Nescau - Rei da torcida | Facebook (2012)
+URL: <https://apps.facebook.com/rei-da-torcida/>
+
+Circuito SESC de Artes (2012)
+URL: <http://circuito.sescsp.org.br/>
+
+Circuito SESC de Artes (2012)  
+URL: <http://circuito.sescsp.org.br/>
+
+Oficinas de criatividade (2012)  
+URL: <http://oficinas.sescsp.org.br>
+
 Breno Homara Imóveis (2011)  
 URL: <http://brenohomaraimoveis.com.br>
 
 Fibria - Intranet (2011)  
 URL: <http://sustentabilidadefibria.com.br>
-
-Vivo Trade - PEX (2011)  
-URL: <https://www2.vivovoce.com.br/trade/pex/>
 
 Banco de Imagem - Seepix (2011)  
 URL: <http://seepix.fotos.seepix.com.br/>
