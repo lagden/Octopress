@@ -78,7 +78,7 @@ Completo
     Flash, Flex
     HTML5, CSS, SASS
     MySQL, MsSql, MongoDB
-    Git
+    Git(Controle de Versão)
 
 ## SOCIAL
 <https://github.com/lagden>  
@@ -144,24 +144,21 @@ Completo
 
 ## ALGUNS TRABALHOS
 
-Herbalife (2012)
-URL: <http://www.comoherbalifefunciona.com.br/>
-URL: <http://www.tudosobreaherbalife.com.br/>
-URL: <http://www.verdadesobreaherbalife.com.br/>
-URL: <http://www.negociosherbalife.com.br/>
-URL: <http://www.precooficialherbalife.com.br/>
-
-Promoção Nescau - Rei da torcida | Facebook (2012)
+Promoção Nescau - Rei da torcida | Facebook (2012)  
 URL: <https://apps.facebook.com/rei-da-torcida/>
-
-Circuito SESC de Artes (2012)
-URL: <http://circuito.sescsp.org.br/>
 
 Circuito SESC de Artes (2012)  
 URL: <http://circuito.sescsp.org.br/>
 
 Oficinas de criatividade (2012)  
 URL: <http://oficinas.sescsp.org.br>
+
+Herbalife (2012)  
+URL: <http://www.comoherbalifefunciona.com.br/>  
+URL: <http://www.tudosobreaherbalife.com.br/>  
+URL: <http://www.verdadesobreaherbalife.com.br/>  
+URL: <http://www.negociosherbalife.com.br/>  
+URL: <http://www.precooficialherbalife.com.br/>
 
 Breno Homara Imóveis (2011)  
 URL: <http://brenohomaraimoveis.com.br>
